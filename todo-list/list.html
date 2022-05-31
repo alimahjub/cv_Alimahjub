@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./list.css">
+    <title>to do list</title>
+</head>
+<body>
+    <div class="aligns">
+        <div class="header aligns">
+            <h2>To Do List</h2>
+            <div class="aligns txt">
+                <input id="textinput" class="inpt" type="text" onkeydown="addkey(event)"> 
+                <button class="btn" onclick="add()">Add</button>
+            </div>
+        </div>
+    </div> 
+    <ul id="ls" class="aligns list">
+    </ul>   
+    <script src="./list.js"></script>
+</body>
+</html>
